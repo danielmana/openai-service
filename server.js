@@ -12,9 +12,9 @@ app.use(
     origin: [
       "http://localhost:3001",
       "http://localhost:3000",
-      "https://next.red.isbuildingluma.com",
-      "https://next.lumahealthstaging.com",
-      "https://next.lumahealth.io",
+      "https://*.isbuildingluma.com",
+      "https://*.lumahealthstaging.com",
+      "https://*.lumahealth.io",
     ],
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type", "Authorization"],
