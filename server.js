@@ -111,7 +111,7 @@ EFollowupAction:
 - none: No action
 - set-context: Set a context for the workflow
 - execute-assistant-tool: Execute an assistant tool
-- invoke-integrator-api: Call an integrator API
+- invoke-integrator-api: Call EHR API
 - invoke-rest-api: Call a REST API
 - invoke-fhir-api: Call a FHIR API
 - invoke-navigator: Use the Spark Navigator
